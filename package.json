@@ -16,7 +16,7 @@
     "preview": "vite preview",
     "release": "release-it"
   },
-  "homepage": "/nsc-app-testing",
+  "homepage": "/",
   "dependencies": {
     "@ant-design/icons": "5.1.4",
     "@auth0/auth0-react": "^2.2.0",

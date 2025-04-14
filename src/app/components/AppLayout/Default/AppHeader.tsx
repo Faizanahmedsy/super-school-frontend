@@ -11,7 +11,7 @@ import { useNotificationReadAll } from '@/services/notification/notification.hoo
 import { useStateList } from '@/services/state/state.hook';
 import useGlobalState from '@/store';
 import useSubjectStore from '@/store/secondary-store';
-import grArlogo from '../../../../../public/new/grAidarLogoFinalCropped.png';
+import superSchoolLogo from '@/assets/icon/logo.svg';
 
 import React, { useEffect, useState } from 'react';
 import { Dropdown, Form, Modal, Select, Space } from 'antd';
@@ -271,7 +271,7 @@ const AppHeader: React.FC<Props> = ({ isCollapsed, onToggleSidebar }) => {
           </Dropdown>
           {!isMobileMenuOpen && (
             <img
-              src={grArlogo}
+              src={superSchoolLogo}
               alt="Company Logo"
               className="h-10 opacity-75 hover:opacity-100 transition-opacity duration-200 p-0 m-0"
             />
@@ -280,7 +280,7 @@ const AppHeader: React.FC<Props> = ({ isCollapsed, onToggleSidebar }) => {
 
         {isMobileMenuOpen && (
           <img
-            src={grArlogo}
+            src={superSchoolLogo}
             alt="Company Logo"
             className="h-10 opacity-75 hover:opacity-100 transition-opacity duration-200 p-0 m-0"
           />

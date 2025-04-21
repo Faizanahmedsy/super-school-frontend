@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { allowMultiLanguage } from '@/app/constants/AppConst';
 import { useIntl } from 'react-intl';
 
-// NSC SIDEBAR MENU ITEM BUTTON
+// Super School SIDEBAR MENU ITEM BUTTON
 
 const MenuItemChildren = (item: any) => {
   const { icon, messageId, url } = item;

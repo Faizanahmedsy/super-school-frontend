@@ -7,10 +7,10 @@ const SITE_URL =
 
 const FACEBOOK_APP_ID = 'XXXXXXXXX';
 
-const defaultTitle = 'NSC System';
+const defaultTitle = 'Super School System';
 ``;
 const defaultDescription = `Comprehensive Exam Administration System
-for the National Senior Certificate (NSC)`;
+for the National Senior Certificate (Super School)`;
 const defaultImage = 'https://firebasestorage.googleapis.com/v0/b/crema-demo.appspot.com/o/logo512.png?alt=media';
 const defaultTwitter = 'app';
 const defaultSep = ' | ';

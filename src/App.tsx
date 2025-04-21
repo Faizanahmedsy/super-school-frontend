@@ -31,7 +31,7 @@ function App() {
     console.log(`Test Mode: true, env: ${import.meta.env.VITE_ENV}, Render count: ${renderCount.current}`);
   }, []);
 
-  //NSC: THIS HOOK IS USED TO CHANGE THE APP PRIMARY AND SECONDARY COLOR DYNAMICALLY
+  //Super School: THIS HOOK IS USED TO CHANGE THE APP PRIMARY AND SECONDARY COLOR DYNAMICALLY
   useAppColor();
 
   // TODO: USE THIS LATER TO PREVENT INSPECT ELEMENT

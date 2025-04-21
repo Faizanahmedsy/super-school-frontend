@@ -6,6 +6,7 @@ import UIFormSubmitButton from '@/components/custom/buttons/UIFormSubmitButton';
 import { usePostLogin } from '@/services/auth/signin/signin.hook';
 import { LoginPayload } from '@/services/types/payload';
 import { StyledRememberMe, StyledSign, StyledSignContent, StyledSignForm, StyledSignLink } from './index.styled';
+import { em } from 'polished';
 
 const SignInFirebase = () => {
   const navigate = useNavigate();
@@ -29,6 +30,8 @@ const SignInFirebase = () => {
           name="basic"
           initialValues={{
             remember: true,
+            email: 'panchalneel03+teacher@gmail.com',
+            password: 'Tester@123',
           }}
           onFinish={(values) => handldeLogin(values as LoginPayload)}
           onFinishFailed={onFinishFailed}
